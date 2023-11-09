@@ -13,12 +13,24 @@
   </head>
   <body>
     <div class="d-flex">
-      <aside class="w-25">nav</aside>
+      <nav class="navbar w-25 bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">page 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">pg 3</a>
+            </li>
+        </ul>        
+      </nav>
       <main class="w-75">
         <section id="dashboard">
           <h1>Dashboard</h1>
           <div class="d-flex" id="daily-summary">
-            <div>
+            <div id="summary-1">
               <h2>Summary 1</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -28,7 +40,7 @@
                 sapiente.
               </p>
             </div>
-            <div>
+            <div id="summary-2">
               <h2>Summary 2</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
@@ -37,7 +49,7 @@
                 ipsa culpa id beatae, inventore quo.
               </p>
             </div>
-            <div>
+            <div id="summary-3">
               <h2>Summary 3</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
@@ -48,6 +60,22 @@
             </div>
           </div>
         </section>
+
+        <div id="stats">
+            <div id="circle-graph">
+                title
+                chart
+            </div>
+            <div id="line-graph">
+                title
+                chart
+            </div>
+            <div id="bar-graph">
+                title
+                chart
+            </div>
+        </div>
+
       </main>
     </div>
 

@@ -1,3 +1,15 @@
-img{
-    width: 500px;
+p[id*=key]:before {
+    content: "■";
+}
+#key-1{
+    color: #DC3545;
+}
+#key-2{
+    color: #FFC107;
+}
+#key-3{
+    color: #198754;
+}
+#key-4{
+    color: #0D6EFD;
 }
